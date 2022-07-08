@@ -10,8 +10,3 @@ const idInterval = setInterval(() => {
     clearInterval(idInterval);
   }
 }, 1000);
-
-document.querySelector("form").addEventListener("submit", (e) => {
-  e.preventDefault();
-  idInterval;
-});
